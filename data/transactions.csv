@@ -1,0 +1,111 @@
+transaction_id,account_id,amount,transaction_type,timestamp,category,description
+14e4216e-c2b5-402f-a041-d944dafe68d9,ACC0018,8816.61,credit,2023-07-09T09:56:38,salary,Salary transaction
+9dbe837e-7440-4033-8090-23f2ce21d611,ACC0036,1489.31,debit,2023-04-09T23:45:24,transfer_out,Transfer Out transaction
+7e700882-76ea-4e0e-bad8-585622d91c4b,ACC0010,2730.49,credit,2024-04-14T18:50:42,interest,Interest transaction
+c080e7ed-9880-4cf3-88ff-4f4f59bc47db,ACC0035,2139.2,credit,2023-07-25T23:41:38,salary,Salary transaction
+2488c620-46e9-4502-a55f-4fb8ae7acf22,ACC0002,939.51,debit,2023-06-22T02:51:22,rent,Rent transaction
+6c5d5b6b-8904-4693-b9ca-b757e1c83760,ACC0015,81.83,credit,2024-07-03T19:06:41,interest,Interest transaction
+09f45ebe-381f-42b7-8953-56f79f8289a8,ACC0017,7519.5,debit,2024-10-14T08:10:44,rent,Rent transaction
+58be9aa4-df6a-404b-9b49-dbde43897af5,ACC0034,4519.9,debit,2023-07-12T13:17:44,rent,Rent transaction
+b29acc35-f271-4973-a44b-f23cdac48e99,ACC0036,5313.38,debit,2023-11-27T11:57:57,rent,Rent transaction
+8313d107-24d7-46c4-9b44-925a6c1213bb,ACC0044,6483.23,debit,2024-04-18T03:01:29,atm,Atm transaction
+a472c39a-39d7-4361-b79e-75d1231291cd,ACC0013,7047.97,debit,2023-02-05T14:13:42,transfer_out,Transfer Out transaction
+6f79dd80-846f-4d63-85ae-1ce4a6ee2b81,ACC0013,,credit,2023-07-07T11:12:10,bonus,null amount row
+9ecc95ea-0cb0-402e-b9f2-17f51759d342,ACC0039,7908.71,debit,2023-06-25T07:06:47,transfer_out,Transfer Out transaction
+1922b3c2-066f-493b-a50c-37abe0f863ed,ACC0015,8066.76,credit,2023-04-25T10:52:37,transfer_in,Transfer In transaction
+177f971b-6b4f-4603-b745-ae9319cd62a2,ACC0035,641.65,unknown,2023-02-05T08:28:26,misc,bad type row
+3444e20e-4593-445d-8c85-4fd69fe168ef,ACC0009,8015.35,credit,2024-06-02T12:33:03,bonus,Bonus transaction
+c83e5c9b-6534-470a-a58f-f3fe7389901f,ACC0002,1801.63,credit,2024-12-19T01:41:32,bonus,Bonus transaction
+a80aed1d-b1a7-487b-9a66-46040f32a44d,ACC0015,6504.29,credit,2024-08-29T19:14:22,transfer_in,Transfer In transaction
+a0e1cca6-6cf5-45c8-816c-e1d37b3e1e3a,,4031.04,debit,2023-09-22T06:43:45,misc,null account row
+24190c1d-b156-49c1-a93f-5f6a39c63533,ACC0048,1553.83,debit,2024-12-23T06:14:18,transfer_out,Transfer Out transaction
+1e7529e1-3494-4ff3-9d1f-e23d4b4a282a,ACC0010,8112.5,credit,2023-08-24T23:54:16,refund,Refund transaction
+8ea559fc-c329-4f19-ae2a-1a5b2fb2e3c1,ACC0040,5345.36,debit,2024-12-05T10:22:45,food,Food transaction
+1bde7c77-6373-49a0-af0e-546465a7fb6b,ACC0028,3463.07,credit,2024-09-02T20:05:01,interest,Interest transaction
+cd8cafd2-c3f2-42b7-b8eb-a3947542121d,ACC0033,3099.44,credit,2023-11-14T04:59:44,transfer_in,Transfer In transaction
+439d45bb-a6d0-4552-9088-9650d46ba055,ACC0037,2469.45,debit,2024-04-06T18:38:25,shopping,Shopping transaction
+a9c54277-73f0-48f4-a735-9e80c9ab3d88,ACC0044,8848.15,credit,2024-08-06T05:22:36,salary,Salary transaction
+b22c51b9-3072-49c9-b42d-c0d0360e5327,ACC0043,9403.29,credit,2024-06-10T02:07:17,bonus,Bonus transaction
+12edfc77-ff78-4bd9-b6b4-6d3751067823,ACC0014,6823.16,credit,2024-06-02T00:32:23,transfer_in,Transfer In transaction
+58b61a16-beb0-405f-8c82-c4dc7483fbcd,ACC0032,918.09,credit,2023-02-06T14:18:46,interest,Interest transaction
+afcd42a3-9c78-4806-bbdc-4aa13f2c0749,ACC0029,783.98,credit,2023-08-10T22:21:31,transfer_in,Transfer In transaction
+dca74b76-9500-4459-a3f3-30f4b0776290,ACC0032,2518.45,debit,2024-12-06T09:18:41,transfer_out,Transfer Out transaction
+a9ce8348-6ee4-4fa7-82ce-c4a4e70b4a50,ACC0015,1766.93,credit,2024-06-24T12:44:08,bonus,Bonus transaction
+ad4e26dc-1018-41ee-a2f2-9267a731dcae,ACC0018,8644.02,debit,2024-08-23T15:51:12,utilities,Utilities transaction
+309f5d0e-6c50-4e30-b1f2-499de455d71a,ACC0007,8727.6,credit,2024-03-21T21:19:57,bonus,Bonus transaction
+cdbaf27d-9edd-42cc-9ee8-ebfbd74d0c63,ACC0042,4996.82,debit,2024-11-18T03:41:21,food,Food transaction
+c83e5c9b-6534-470a-a58f-f3fe7389901f,ACC0002,1801.63,credit,2024-12-19T01:41:32,bonus,Bonus transaction
+d03c14c9-c41d-4730-80c1-fd65249e6295,ACC0020,9317.31,credit,2023-03-22T10:59:32,interest,Interest transaction
+1bb9b2ed-61c3-4452-9d4c-8c97396c9879,ACC0028,708.97,credit,2024-05-30T22:17:16,transfer_in,Transfer In transaction
+26a381b1-882a-46e3-8d22-9a6971c01dd3,ACC0001,3341.9,debit,2023-04-12T14:39:18,shopping,Shopping transaction
+e21ad0e0-5c19-4700-8398-3d0fbf0351e0,ACC0035,7747.89,debit,2023-12-28T01:52:30,transfer_out,Transfer Out transaction
+2371b9fe-2c71-426d-a470-c6739ea76979,ACC0026,2447.16,debit,2024-05-24T13:48:27,rent,Rent transaction
+b05e7e36-05fd-4d6e-913e-2bc1655ec287,ACC0002,3894.29,debit,2024-06-03T12:42:28,rent,Rent transaction
+282049dd-8c64-479f-8dd1-6fe658317295,ACC0023,3058.55,credit,2024-09-09T18:18:52,bonus,Bonus transaction
+97009c93-cb90-4bdc-882b-0c5b58bdc8eb,ACC0014,2334.05,credit,2024-04-12T14:26:33,salary,Salary transaction
+50653a11-839f-4d14-b31b-ab10ea1994a0,ACC0030,42.42,debit,2024-07-14T20:46:17,food,Food transaction
+df2aaca3-20ac-4bac-8ef1-4ffc31c39fb0,ACC0011,7875.08,credit,2023-03-25T23:02:54,transfer_in,Transfer In transaction
+90fb0010-b008-463e-acfc-c7f6aaebdf4f,ACC0020,2521.27,debit,2023-04-04T17:11:19,utilities,Utilities transaction
+eabce675-68d7-415b-b90c-27e11e998a6d,ACC0047,8920.39,debit,2023-11-28T11:01:27,transfer_out,Transfer Out transaction
+cf444098-a432-45c1-90e1-8c8ac90385db,ACC0013,,debit,2023-06-21T05:18:39,bonus,null amount row
+c080e7ed-9880-4cf3-88ff-4f4f59bc47db,ACC0035,2139.2,credit,2023-07-25T23:41:38,salary,Salary transaction
+967acb5a-34bf-41ae-a2b3-a1151cecdab9,ACC0008,9730.45,debit,2023-10-22T00:23:32,transfer_out,Transfer Out transaction
+74394585-922e-4249-815d-d280e4f59a12,ACC0016,,debit,2024-04-19T18:58:21,salary,null amount row
+c29b331b-29e3-477c-a605-f3f2ba1ccc38,ACC0025,31.53,credit,2023-10-31T05:59:20,refund,Refund transaction
+b761107d-cce5-47c1-a64e-7209e440d6fc,ACC0048,7348.26,debit,2024-09-13T06:37:24,transfer_out,Transfer Out transaction
+d7c5233e-ae41-4ad3-802b-daec2858a43e,ACC0047,9953.28,debit,2024-03-07T16:16:20,atm,Atm transaction
+ed42cb3d-87fd-4853-8203-eb47d412afd9,ACC0007,8705.61,credit,2023-08-20T19:24:50,interest,Interest transaction
+42cfd23a-7d1a-4712-ab86-ff73c3eaeb97,ACC0032,8510.17,debit,2023-05-22T05:44:26,shopping,Shopping transaction
+4ca6a231-8111-4996-b33d-675b6c99c8ca,ACC0029,6758.84,debit,2024-02-02T00:58:26,rent,Rent transaction
+a3d22171-3679-49ee-8674-ba2bad5e6b1e,ACC0030,1825.29,debit,2023-07-22T01:39:54,food,Food transaction
+1481c6fe-0dcd-4971-ae71-fa4448d13edb,ACC0001,1127.51,debit,2024-11-16T22:17:46,transfer_out,Transfer Out transaction
+531e2047-4ac2-4e65-bff0-9a8c2b419080,ACC0013,2554.42,debit,2024-07-04T12:42:55,transfer_out,Transfer Out transaction
+eabce675-68d7-415b-b90c-27e11e998a6d,ACC0047,8920.39,debit,2023-11-28T11:01:27,transfer_out,Transfer Out transaction
+72e99c20-361f-4d1f-8330-5efbc01b42be,ACC0025,4774.55,credit,2023-10-01T05:15:33,interest,Interest transaction
+d985d342-5b24-41ff-8339-0a07ca5c1618,ACC0046,1991.12,debit,2024-04-04T21:30:14,rent,Rent transaction
+ea8e818b-4dcb-4171-84f1-9d60c8249f82,ACC0019,1585.73,credit,2024-10-09T14:07:56,transfer_in,Transfer In transaction
+9f83f5d7-b7fc-4183-a93e-e90c71be0158,ACC0050,1266.22,credit,2024-05-27T10:38:48,interest,Interest transaction
+ea8e818b-4dcb-4171-84f1-9d60c8249f82,ACC0019,1585.73,credit,2024-10-09T14:07:56,transfer_in,Transfer In transaction
+b761107d-cce5-47c1-a64e-7209e440d6fc,ACC0048,7348.26,debit,2024-09-13T06:37:24,transfer_out,Transfer Out transaction
+a799bb43-d5b4-4823-87ba-ac460075ea33,ACC0035,9534.51,debit,2024-12-17T11:25:03,food,Food transaction
+506a85f2-1eaf-4b64-a999-b0464adc7b2a,ACC0033,810.23,credit,2023-05-25T08:01:42,salary,Salary transaction
+f035bfe8-27da-46cd-9145-7e8f34729c4b,ACC0021,2448.14,unknown,2023-03-28T21:21:55,misc,bad type row
+b94be6e5-99b8-4f23-9ab2-df617fe93017,ACC0016,1923.79,debit,2024-02-21T13:05:27,shopping,Shopping transaction
+3deb93f0-9619-4d93-bad2-4b299acf7ff8,ACC0010,2320.07,credit,2024-06-23T00:09:43,refund,Refund transaction
+a40e26ca-c1a9-45fc-b986-a5852ef76f0c,ACC0005,3853.44,debit,2024-04-07T20:09:55,transfer_out,Transfer Out transaction
+531e2047-4ac2-4e65-bff0-9a8c2b419080,ACC0013,2554.42,debit,2024-07-04T12:42:55,transfer_out,Transfer Out transaction
+cd3ab41a-ea8d-4270-996f-90e7e68d1713,ACC0033,2387.43,debit,2024-06-03T14:38:58,shopping,Shopping transaction
+a3d22171-3679-49ee-8674-ba2bad5e6b1e,ACC0030,1825.29,debit,2023-07-22T01:39:54,food,Food transaction
+9ecc95ea-0cb0-402e-b9f2-17f51759d342,ACC0039,7908.71,debit,2023-06-25T07:06:47,transfer_out,Transfer Out transaction
+b96edc76-6388-4c4d-9d9d-f7ca5eadc48b,ACC0024,698.81,debit,2024-05-17T23:04:52,atm,Atm transaction
+5bd58ee3-02e6-4b58-bdc0-77316a847bbe,ACC0014,7387.92,credit,2023-08-03T18:19:35,refund,Refund transaction
+79443a0f-9c45-43ee-9546-11cd4f335093,ACC0001,3045.41,debit,2023-06-13T06:05:21,transfer_out,Transfer Out transaction
+a75ad60c-d2ed-4bb3-a647-43b37e3dc033,ACC0039,8056.42,debit,2024-09-10T10:45:03,atm,Atm transaction
+46dc9b0d-1bba-4cdb-b21e-6ea983c0c02a,ACC0014,6699.89,debit,2023-09-02T00:48:42,utilities,Utilities transaction
+cfa2e046-0f8b-4250-9ceb-8884b828fc53,ACC0029,8081.33,credit,2024-10-26T20:22:45,salary,Salary transaction
+44413dd9-000f-4a15-bd71-31d812558650,ACC0025,976.1,credit,2024-10-20T06:26:24,salary,Salary transaction
+28403e63-5353-4461-a37d-7df5bcd2673a,ACC0021,9289.96,debit,2024-12-27T19:21:05,rent,Rent transaction
+b09de5ba-c478-4e00-ace7-a808ba90ce97,ACC0019,5158.85,credit,2024-05-06T14:52:21,salary,Salary transaction
+7d956082-eddc-4ee6-8dd5-5c5a91aaaf60,ACC0049,9511.58,debit,2023-11-24T10:32:16,utilities,Utilities transaction
+e7f0dfbe-4262-4575-9823-f297a0623656,ACC0045,8801.39,debit,2024-03-07T16:41:44,transfer_out,Transfer Out transaction
+b22c51b9-3072-49c9-b42d-c0d0360e5327,ACC0043,9403.29,credit,2024-06-10T02:07:17,bonus,Bonus transaction
+c9bcfece-7e97-453a-b0a2-f000b6336448,ACC0008,8770.74,debit,2023-07-22T21:24:15,shopping,Shopping transaction
+ecd87b6a-85b2-4ccd-8708-31fe190912bd,ACC0048,1033.82,credit,2024-07-29T07:02:50,refund,Refund transaction
+cd8cafd2-c3f2-42b7-b8eb-a3947542121d,ACC0033,3099.44,credit,2023-11-14T04:59:44,transfer_in,Transfer In transaction
+e7aadbe2-2d56-4446-8a96-4665d1fab7ec,ACC0018,9894.35,debit,2024-05-12T02:27:36,rent,Rent transaction
+f7ef0e1f-463e-4d0d-a6ec-1fdeefb12110,ACC0030,4163.17,debit,2023-06-10T15:40:20,transfer_out,Transfer Out transaction
+d96f1155-b0fe-4397-8210-909992ddd6df,ACC0035,7554.34,debit,2024-06-19T20:03:53,food,Food transaction
+ddeac780-b67c-47c4-af13-0c757224f3fd,ACC0049,8487.62,credit,2023-05-10T04:15:49,salary,Salary transaction
+5192089d-8ded-4190-a5f7-0700c195ce3e,ACC0004,2416.07,debit,2024-03-16T16:17:59,food,Food transaction
+4b856902-22e0-42c1-aef2-2eb5cfa9e990,ACC0003,8051.6,credit,2023-11-08T14:15:13,refund,Refund transaction
+6f744a9e-0b47-462e-95c1-013c5bc3aaef,ACC0024,6358.86,credit,2024-10-05T16:13:26,bonus,Bonus transaction
+3ace4805-e11a-494b-94c0-5d87a0a8ca7f,ACC0038,7359.28,credit,2023-02-17T08:19:53,salary,Salary transaction
+154dd34c-3f66-44bb-8f19-f53224e55969,ACC0047,551.12,debit,2024-05-22T13:17:35,rent,Rent transaction
+fe6d6b27-c6d0-4de0-be61-8fa83753b420,ACC0020,1089.8,credit,2023-01-20T22:40:49,refund,Refund transaction
+0ae523eb-402f-4ea7-ab86-a513338cdbc6,ACC0031,8076.09,debit,2023-05-28T21:29:53,food,Food transaction
+0761c103-a19f-4eb4-8575-806bd10e9249,ACC0031,1149.62,credit,2023-02-20T18:05:23,transfer_in,Transfer In transaction
+5cc48e25-152e-40f8-a899-e1877dec3241,ACC0035,2634.53,credit,2024-03-30T01:28:21,interest,Interest transaction
+a597ae64-dd4f-4b0c-b601-573f932eedea,ACC0013,2969.21,debit,2023-10-08T07:18:38,shopping,Shopping transaction
+d9ef5165-8be3-47e1-b0ae-004fca60d8fe,ACC0002,6216.52,credit,2023-07-05T06:48:00,refund,Refund transaction
+437965b3-5ba3-4c0f-a91c-dc6e8ace3089,ACC0025,2786.68,credit,2024-05-08T18:01:00,salary,Salary transaction
+4e20133e-4938-4f3e-b10b-5cbefe31acf9,ACC0045,2569.62,credit,2023-10-14T12:42:16,bonus,Bonus transaction

@@ -1,0 +1,99 @@
+2026-04-15 23:53:36,142  INFO        TRANSACTION ETL PIPELINE  STARTED
+2026-04-15 23:53:36,143  INFO        2026-04-15 23:53:36
+2026-04-15 23:53:36,162  INFO      Loaded 5,210 records from 'data/transactions.csv'
+2026-04-15 23:53:36,163  INFO      Columns: ['transaction_id', 'account_id', 'amount', 'transaction_type', 'timestamp', 'category', 'description']
+2026-04-15 23:53:36,190  INFO      Dropped 196 rows with critical nulls
+2026-04-15 23:53:36,192  INFO      Dropped 0 rows with zero/negative amounts
+2026-04-15 23:53:36,195  INFO      Dropped 91 rows with invalid transaction_type
+2026-04-15 23:53:36,197  INFO      Dropped 10 duplicate transaction IDs
+2026-04-15 23:53:36,235  INFO      Clean records: 4,913 / 5,210 (94.3% data integrity)
+2026-04-15 23:53:36,246  INFO      Account summaries computed for 50 accounts
+2026-04-15 23:53:36,335  INFO      Database: data/transactions.db
+2026-04-15 23:56:05,547  INFO      ==================================================
+2026-04-15 23:56:05,547  INFO        TRANSACTION ETL PIPELINE  STARTED
+2026-04-15 23:56:05,547  INFO        2026-04-15 23:56:05
+2026-04-15 23:56:05,547  INFO      ==================================================
+2026-04-15 23:56:05,548  INFO      -- EXTRACT --------------------------------------
+2026-04-15 23:56:05,567  INFO      Loaded 5,210 records from 'data/transactions.csv'
+2026-04-15 23:56:05,567  INFO      Columns: ['transaction_id', 'account_id', 'amount', 'transaction_type', 'timestamp', 'category', 'description']
+2026-04-15 23:56:05,568  INFO      -- TRANSFORM ------------------------------------
+2026-04-15 23:56:05,583  INFO      Dropped 196 rows with critical nulls
+2026-04-15 23:56:05,585  INFO      Dropped 0 rows with zero/negative amounts
+2026-04-15 23:56:05,588  INFO      Dropped 91 rows with invalid transaction_type
+2026-04-15 23:56:05,590  INFO      Dropped 10 duplicate transaction IDs
+2026-04-15 23:56:05,640  INFO      Clean records: 4,913 / 5,210 (94.3% data integrity)
+2026-04-15 23:56:05,653  INFO      Account summaries computed for 50 accounts
+2026-04-15 23:56:05,654  INFO      -- LOAD -----------------------------------------
+2026-04-15 23:56:05,803  INFO      Loaded 4,913 transactions  -> 'transactions' table
+2026-04-15 23:56:05,803  INFO      Loaded 50 account rows  -> 'account_summary' table
+2026-04-15 23:56:05,803  INFO      Database: data/transactions.db
+2026-04-15 23:56:05,804  INFO      -- ANALYTICS ------------------------------------
+2026-04-15 23:56:05,812  INFO      
+[QUERY] Top 5 accounts by balance  [1.0ms]
+account_id   balance  txn_count
+   ACC0029 135717.08        109
+   ACC0006 106222.88         99
+   ACC0032 104913.47         96
+   ACC0013  84361.27         97
+   ACC0030  79645.32         94
+2026-04-15 23:56:05,820  INFO      
+[QUERY] Monthly transaction volume (last 6 months)  [5.0ms]
+year_month  txn_count  total_credits  total_debits
+   2024-12        192      468152.48     506896.79
+   2024-11        203      557605.35     460691.22
+   2024-10        213      478547.89     571571.21
+   2024-09        222      573239.53     575290.01
+   2024-08        228      612880.82     495796.65
+   2024-07        219      546417.04     515200.89
+2026-04-15 23:56:05,824  INFO      
+[QUERY] Credit vs Debit split  [3.0ms]
+transaction_type  count  total_amount  avg_amount
+          credit   2487   12462543.52     5011.07
+           debit   2426   11915264.05     4911.49
+2026-04-15 23:56:05,824  INFO      ==================================================
+2026-04-15 23:56:05,824  INFO        PIPELINE COMPLETED in 0.28s [OK]
+2026-04-15 23:56:05,825  INFO      ==================================================
+2026-04-16 00:03:32,830  INFO      ==================================================
+2026-04-16 00:03:32,831  INFO        TRANSACTION ETL PIPELINE  STARTED
+2026-04-16 00:03:32,831  INFO        2026-04-16 00:03:32
+2026-04-16 00:03:32,831  INFO      ==================================================
+2026-04-16 00:03:32,831  INFO      -- EXTRACT --------------------------------------
+2026-04-16 00:03:32,838  INFO      Loaded 110 records from 'data/transactions.csv'
+2026-04-16 00:03:32,839  INFO      Columns: ['transaction_id', 'account_id', 'amount', 'transaction_type', 'timestamp', 'category', 'description']
+2026-04-16 00:03:32,839  INFO      -- TRANSFORM ------------------------------------
+2026-04-16 00:03:32,859  INFO      Dropped 4 rows with critical nulls
+2026-04-16 00:03:32,861  INFO      Dropped 0 rows with zero/negative amounts
+2026-04-16 00:03:32,863  INFO      Dropped 2 rows with invalid transaction_type
+2026-04-16 00:03:32,865  INFO      Dropped 10 duplicate transaction IDs
+2026-04-16 00:03:32,873  INFO      Clean records: 94 / 110 (85.45% data integrity)
+2026-04-16 00:03:32,891  INFO      Account summaries computed for 45 accounts
+2026-04-16 00:03:32,891  INFO      -- LOAD -----------------------------------------
+2026-04-16 00:03:32,942  INFO      Loaded 94 transactions  -> 'transactions' table
+2026-04-16 00:03:32,943  INFO      Loaded 45 account rows  -> 'account_summary' table
+2026-04-16 00:03:32,943  INFO      Database: data/transactions.db
+2026-04-16 00:03:32,943  INFO      -- ANALYTICS ------------------------------------
+2026-04-16 00:03:32,949  INFO      
+[QUERY] Top 5 accounts by balance  [1.0ms]
+account_id  balance  txn_count
+   ACC0007 17433.21          2
+   ACC0015 16419.81          4
+   ACC0010 13163.06          3
+   ACC0014  9845.24          4
+   ACC0043  9403.29          1
+2026-04-16 00:03:32,952  INFO      
+[QUERY] Monthly transaction volume (last 6 months)  [0.0ms]
+year_month  txn_count  total_credits  total_debits
+   2024-12          6        1801.63      28242.11
+   2024-11          2           0.00       6124.33
+   2024-10          5       17002.02       7519.50
+   2024-09          4        6521.62      15404.68
+   2024-08          3       15352.44       8644.02
+   2024-07          4        1115.65       2596.84
+2026-04-16 00:03:32,954  INFO      
+[QUERY] Credit vs Debit split  [1.0ms]
+transaction_type  count  total_amount  avg_amount
+          credit     45     202232.42     4494.05
+           debit     49     253661.82     5176.77
+2026-04-16 00:03:32,955  INFO      ==================================================
+2026-04-16 00:03:32,955  INFO        PIPELINE COMPLETED in 0.13s [OK]
+2026-04-16 00:03:32,955  INFO      ==================================================
